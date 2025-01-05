@@ -1,0 +1,34 @@
+# Ignore VS Code settings
+.vscode/
+
+# Ignore environment files
+.env
+
+# Ignore Deno dependency lock files
+deno.lock
+
+# Ignore build outputs or temporary files (if any)
+dist/
+out/
+tmp/
+
+# Ignore logs
+*.log
+logs/
+debug.log
+npm-debug.log
+yarn-debug.log
+pnpm-debug.log
+
+# Ignore coverage output
+coverage/
+
+# Ignore node_modules (if any are used for compatibility purposes)
+node_modules/
+
+# Ignore Deno transpile cache
+deno_cache/
+
+# Ignore other system files
+.DS_Store
+Thumbs.db
